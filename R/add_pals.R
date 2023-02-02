@@ -4320,5 +4320,101 @@ willamette_pal <- newpal(col = c("#BA0C2F", "#C6AA76",
 # - Uni Leipzig: <https://www.uni-leipzig.de/universitaet/service/medien-und-kommunikation/corporate-design>
 # - Uni Tuebingen: <https://uni-tuebingen.de/einrichtungen/verwaltung/stabsstellen/hochschulkommunikation/service-fuer-beschaeftigte/corporate-design/basiselemente/farben/>
 
+# Ab hier durch mich ergänzt 
 
-## eof. ----------
+# - Uni Tübingen: ------
+
+# Universität Tübingen 
+
+# Define the coolors for the University of Tuebingen: 
+
+ut_red <- "#A51E37"
+
+# Ut_red:
+# CMYK 35 100 70 10 
+# RAL 3003 (Rubinrot)
+# RGB 165 30 55
+# HEX #A51E37
+
+ut_gold <- "#B4A069"
+
+# Ut_gold:
+# CMYK 30 30 60 10 
+# RAL 1036 (Perlgold)
+# RGB 180 160 105
+# HEX #B4A069
+
+ut_grey <- "#32414B"
+
+# Ut_grey:
+# CMYK 30 0 0 85
+# RAL 7031 (Blaugrau)
+# RGB 50 65 75
+# HEX #32414B
+
+# Define colors and color names (as vectors):
+color_ut <- c("#A51E37", "#B4A069", "#32414B")
+names_ut <- c("ut_red", "ut_gold", "ut_grey")
+
+# 2. Define color palette:
+uni_tuebingen_1 <- newpal(color_ut, names_ut)
+
+
+# - uni_tuebingen_pal: ----
+
+# 10 colors in 5 pairs (+ 2 colors of 1 black/white pair):
+
+#' Color palette of the RPTU Kaiserslautern-Landau
+#'
+#' \code{rptu_pal} provides the 12 colors (arranged in 6 pairs) 
+#' of the \href{https://rptu.de/}{RPTU} Kaiserslautern-Landau, Germany. 
+#' 
+#' The acronym "RPTU" denotes "Rheinland-Pfälzische Technische Universität", 
+#' which is co-located in Kaiserslautern and Landau, Germany (since 2023). 
+#' 
+#' The two colors of a pair may be combined with each other. 
+#' When using only one color pair, shades of 10% may be used in color gradients. 
+#' See examples and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients. 
+#'  
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unikn}, 2023-01-01.
+#' 
+#' @source 
+#' Color definitions are based on 
+#' \url{https://www.startklar2023.de/brand-portal-rptu}. 
+#' 
+#' @examples
+#' rptu_pal
+#' seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
+#' demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
+#' 
+#' # Gradients:
+#' rptu_10 <- usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
+#' seecol(rptu_10, main = "10 shades of a RPTU color")
+#' 
+#' rptu_21 <- usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
+#' seecol(rptu_21, main = "A gradient between a RPTU color pair")
+#' 
+#' @family contributed color palettes
+#' 
+#' @seealso 
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
+rptu_pal <- newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_hellblau, rptu_dunkelgruen, rptu_hellgruen,
+                           rptu_violett, rptu_pink, rptu_rot, rptu_orange, rptu_schwarz, rptu_weiss),
+                   names = c("blaugrau", "gruengrau", "dunkelblau", "hellblau", "dunkelgruen", "hellgruen", 
+                             "violett", "pink", "rot", "orange", "schwarz", "weiss"),
+                   as_df = FALSE)
+
+# seecol(rptu_pal, main = "The colors of RPTU")
+# 
+# # Gradients:
