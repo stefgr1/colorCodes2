@@ -54,6 +54,7 @@ inst <- c(rep("Caltech", 3),
           rep("University of Mannheim", 2),          
           rep("Princeton University", 3),
           rep("University of Regensburg", 3),
+          rep("University of Tuebingen", 2),
           rep("University of Ulm", 2),          
           rep("RPI", 3), 
           "RPTU Kaiserslautern-Landau"
@@ -76,6 +77,7 @@ inst_alt <- c(rep("California Institute of Technology", 3),
               rep("Universit\u00E4t Mannheim", 2),
               rep("Princeton University", 3),
               rep("Universit\u00E4t Regensburg", 3),
+              rep("Universit\u00E4t Tuebingen", 2),
               rep("Universit\u00E4t Ulm", 2),
               rep("Rensselaer Polytechnic Institute", 3), 
               "Rheinland-Pf\u00E4lzische Technische Universit\u00E4t Kaiserslautern-Landau"
@@ -98,6 +100,7 @@ url <- c(rep("https://www.caltech.edu/", 3),
          rep("https://www.uni-mannheim.de/", 2),
          rep("https://www.princeton.edu/", 3),
          rep("https://www.uni-regensburg.de/", 3),
+         rep("https://www.uni-tuebingen.de/", 2),
          rep("https://www.uni-ulm.de/", 2),
          rep("https://www.rpi.edu/", 3),
          "https://rptu.de/"
@@ -4371,10 +4374,8 @@ uni_tuebingen_1 <- newpal(color_ut, names_ut)
 # Secondary colors of the University of Tuebingen:
 
 # do the same for the secondary colors 
-color_ut_2 <- c("#415A8C", "#0069AA", "#50AAC8", "#82B9A0", "#7DA54B", "#326E1E", "#C8503C", 
-                         "#AF6E96", "#B4A096", "#D7B469", "#D29600", "#916946")
-                         names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", "ut_light_green", 
-                                         "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_yellow", "ut_orange", "ut_brown")
+color_ut_2 <- c("#415A8C", "#0069AA", "#50AAC8", "#82B9A0", "#7DA54B", "#326E1E", "#C8503C", "#AF6E96", "#B4A096", "#D7B469", "#D29600", "#916946")
+names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", "ut_light_green", "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_yellow", "ut_orange", "ut_brown")
                          
 # 3. Define color palette:
 uni_tuebingen_2 <- newpal(color_ut_2, names_ut_2,as_df = FALSE)
