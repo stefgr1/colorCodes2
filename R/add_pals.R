@@ -4326,10 +4326,10 @@ willamette_pal <- newpal(col = c("#BA0C2F", "#C6AA76",
 
 # Universität Tübingen 
 
-# Define the coolors for the University of Tuebingen: 
+# Define the colors for the University of Tuebingen: 
 
 ut_red <- "#A51E37"
-
+  
 # Ut_red:
 # CMYK 35 100 70 10 
 # RAL 3003 (Rubinrot)
@@ -4337,7 +4337,7 @@ ut_red <- "#A51E37"
 # HEX #A51E37
 
 ut_gold <- "#B4A069"
-
+  
 # Ut_gold:
 # CMYK 30 30 60 10 
 # RAL 1036 (Perlgold)
@@ -4345,7 +4345,7 @@ ut_gold <- "#B4A069"
 # HEX #B4A069
 
 ut_grey <- "#32414B"
-
+  
 # Ut_grey:
 # CMYK 30 0 0 85
 # RAL 7031 (Blaugrau)
@@ -4356,65 +4356,33 @@ ut_grey <- "#32414B"
 color_ut <- c("#A51E37", "#B4A069", "#32414B")
 names_ut <- c("ut_red", "ut_gold", "ut_grey")
 
+# - uni_tuebingen_pal_1: ----
+
 # 2. Define color palette:
 uni_tuebingen_1 <- newpal(color_ut, names_ut)
 
+# Inspect color palette:
+# seecol(pal_ut_1, 
+#        col_brd = "white", lwd_brd = 8,
+#        main = "Colors of: University of Tuebingen")
 
-# - uni_tuebingen_pal: ----
+# - uni_tuebingen_pal_2: ----
 
-# 10 colors in 5 pairs (+ 2 colors of 1 black/white pair):
+# Secondary colors of the University of Tuebingen:
 
-#' Color palette of the RPTU Kaiserslautern-Landau
-#'
-#' \code{rptu_pal} provides the 12 colors (arranged in 6 pairs) 
-#' of the \href{https://rptu.de/}{RPTU} Kaiserslautern-Landau, Germany. 
-#' 
-#' The acronym "RPTU" denotes "Rheinland-Pfälzische Technische Universität", 
-#' which is co-located in Kaiserslautern and Landau, Germany (since 2023). 
-#' 
-#' The two colors of a pair may be combined with each other. 
-#' When using only one color pair, shades of 10% may be used in color gradients. 
-#' See examples and the \code{\link{ac}} and \code{\link{usecol}} functions for creating color gradients. 
-#'  
-#' @return 
-#' A named vector of colors (HEX/HTML codes of type character).
-#' 
-#' @author 
-#' \strong{unikn}, 2023-01-01.
-#' 
-#' @source 
-#' Color definitions are based on 
-#' \url{https://www.startklar2023.de/brand-portal-rptu}. 
-#' 
-#' @examples
-#' rptu_pal
-#' seecol(rptu_pal, main = "The colors of RPTU")  # view color palette
-#' demopal(rptu_pal, type = 1, main = "Using the colors of RPTU")
-#' 
-#' # Gradients:
-#' rptu_10 <- usecol(c(rptu_pal[9], "white"), n = 11)[1:10]
-#' seecol(rptu_10, main = "10 shades of a RPTU color")
-#' 
-#' rptu_21 <- usecol(c(rptu_pal[1], "white", rptu_pal[2]), n = 21)
-#' seecol(rptu_21, main = "A gradient between a RPTU color pair")
-#' 
-#' @family contributed color palettes
-#' 
-#' @seealso 
-#' \code{\link{seecol}} for viewing and comparing color palettes; 
-#' \code{\link{usecol}} for using color palettes; 
-#' \code{\link{simcol}} for finding similar colors; 
-#' \code{\link{newpal}} for defining new color palettes; 
-#' \code{\link{grepal}} for finding named colors. 
-#' 
-#' @export
+# do the same for the secondary colors 
+color_ut_2 <- c("#415A8C", "#0069AA", "#50AAC8", "#82B9A0", "#7DA54B", "#326E1E", "#C8503C", 
+                         "#AF6E96", "#B4A096", "#D7B469", "#D29600", "#916946")
+                         names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", "ut_light_green", 
+                                         "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_yellow", "ut_orange", "ut_brown")
+                         
+# 3. Define color palette:
+uni_tuebingen_2 <- newpal(color_ut_2, names_ut_2)
+                         
 
-rptu_pal <- newpal(col = c(rptu_blaugrau, rptu_gruengrau, rptu_dunkelblau, rptu_hellblau, rptu_dunkelgruen, rptu_hellgruen,
-                           rptu_violett, rptu_pink, rptu_rot, rptu_orange, rptu_schwarz, rptu_weiss),
-                   names = c("blaugrau", "gruengrau", "dunkelblau", "hellblau", "dunkelgruen", "hellgruen", 
-                             "violett", "pink", "rot", "orange", "schwarz", "weiss"),
-                   as_df = FALSE)
-
-# seecol(rptu_pal, main = "The colors of RPTU")
+# Inspect color palette:
+# seecol(pal_ut_2, col_brd = "white", lwd_brd = 8,
+#        main = "Secondary Colors of: University of Tuebingen")
 # 
-# # Gradients:
+
+                         
