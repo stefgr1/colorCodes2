@@ -4377,7 +4377,7 @@ color_ut_2 <- c("#415A8C", "#0069AA", "#50AAC8", "#82B9A0", "#7DA54B", "#326E1E"
                                          "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_yellow", "ut_orange", "ut_brown")
                          
 # 3. Define color palette:
-uni_tuebingen_2 <- newpal(color_ut_2, names_ut_2)
+uni_tuebingen_2 <- newpal(color_ut_2, names_ut_2,as_df = FALSE)
                          
 
 # Inspect color palette:
