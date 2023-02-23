@@ -4365,7 +4365,7 @@ names_ut <- c("ut_red", "ut_gold", "ut_grey")
 uni_tuebingen_1 <- newpal(color_ut, names_ut)
 
 # Inspect color palette:
-# seecol(pal_ut_1, 
+# seecol(uni_tuebingen_1, 
 #        col_brd = "white", lwd_brd = 8,
 #        main = "Colors of: University of Tuebingen")
 
@@ -4382,7 +4382,7 @@ uni_tuebingen_2 <- newpal(color_ut_2, names_ut_2,as_df = FALSE)
                          
 
 # Inspect color palette:
-# seecol(pal_ut_2, col_brd = "white", lwd_brd = 8,
+# seecol(uni_tuebingen_2, col_brd = "white", lwd_brd = 8,
 #        main = "Secondary Colors of: University of Tuebingen")
 # 
 
