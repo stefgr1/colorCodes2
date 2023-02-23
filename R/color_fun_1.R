@@ -1232,6 +1232,7 @@ all_colors <- function(distinct = TRUE){
                                uni_mannheim_1, uni_mannheim_2, 
                                uni_princeton_0, uni_princeton_1, uni_princeton_2,
                                uni_regensburg_1, uni_regensburg_2, uni_regensburg_3,
+                               uni_tuebingen_1, uni_tuebingen_2, 
                                uni_ulm_1, uni_ulm_2, 
                                rpi_pal_1, rpi_pal_2, rpi_pal_3,
                                rptu_pal 
