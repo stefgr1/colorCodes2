@@ -35,16 +35,14 @@ status](https://www.r-pkg.org/badges/version/unikn)](https://CRAN.R-project.org/
 
 <!-- The **unikn** package enables corporate design elements in\ R. It... -->
 
-The **unikn** package provides useful color functionality — by defining
-dedicated colors and color palettes, and functions for finding,
-changing, viewing, and using them — and styled text elements (e.g., for
-marking, underlining, or plotting colored titles)
-in [R](https://www.r-project.org/). The package’s pre-defined range of
-colors and text decoration functions is based on the corporate design of
-the [University of Konstanz](https://www.uni-konstanz.de/) (see
-[link](https://www.uni-konstanz.de/en/university/news-and-media/create-online-and-print-media/corporate-design/)
-for details), but can easily be adapted and extended to other purposes
-or institutions.
+This package is build on the original version from the University of
+Konstanz (**unikn** package) and adds the colors of the University of
+Tuebingen. This package is for internal use only and limited to the
+members of the University of Tuebingen. The following states the general
+information for the **unikn** package which also applies to this
+adjusted package called **colorCodes**. I added two palettes for the
+primary and secondary colors called “uni_tuebingen_1” and
+“uni_tuebingen_2”.
 
 ### Overview
 
@@ -99,22 +97,13 @@ as well!
 
 ### Installation
 
-The latest release of **unikn** is available from
-[CRAN](https://CRAN.R-project.org/) at
-<https://CRAN.R-project.org/package=unikn>:
-
-``` r
-install.packages('unikn')  # install from CRAN client
-library('unikn')           # loads the package
-```
-
 The current development version can be installed from its
 [GitHub](https://github.com) repository at
-<https://github.com/hneth/unikn/>:
+<https://github.com/stefgr1/colorCodes>:
 
 ``` r
-# install.packages('devtools')  # install pkg
-devtools::install_github('hneth/unikn')
+devtools::install_github('stefgr1/colorCodes', force = TRUE)  
+library(colorCodes)          # loads the package
 ```
 
 ## Colors and color palettes
@@ -124,7 +113,7 @@ The colors of **unikn** belong to two categories of color palettes:
 - 16 palettes implementing the colors of the [University of
   Konstanz](https://www.uni-konstanz.de/)’s corporate design
 
-- 52 additional color palettes from various academic institutions
+- 54 additional color palettes from various academic institutions
 
 ### The colors of Konstanz University
 
@@ -801,6 +790,6 @@ remain with their original creators:
 
 <!-- Footer: -->
 
-\[File `README.md` updated on 2023-01-15.\]
+\[File `README.md` updated on 2023-03-01.\]
 
 <!-- eof. -->
