@@ -49,8 +49,8 @@ The vignette on [Text boxes and decorations](text.html) provides information on 
 We install or load the **unikn** package to get started: 
 
 ```{r load-pkg-colors, message = FALSE, warning = FALSE}
-# install.packages('unikn')  # install unikn from CRAN client
-library('unikn')             # load the package
+## install.packages('unikn')  
+library('colorCodes')             # load the package
 ```
 
 
