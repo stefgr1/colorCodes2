@@ -14,7 +14,7 @@ knitr::opts_chunk$set(collapse = TRUE,
                       fig.path = "inst/pix/README-",
                       out.width = "600")
 
-library(unikn)  # load package
+library(colorCodes)  # load package
 ```
 
 <!-- Devel badges start: -->
