@@ -4329,7 +4329,7 @@ willamette_pal <- newpal(col = c("#BA0C2F", "#C6AA76",
 
 # Universität Tübingen 
 
-# Define the colors for the University of Tuebingen: 
+# - uni_tuebingen_1: Primary colors ----
 
 ut_red <- "#A51E37"
   
@@ -4359,7 +4359,43 @@ ut_grey <- "#32414B"
 color_ut <- c("#A51E37", "#B4A069", "#32414B")
 names_ut <- c("ut_red", "ut_gold", "ut_grey")
 
-# - uni_tuebingen_pal_1: ----
+#' Primary colors of the University of Tuebingen
+#'
+#' \code{uni_tuebingen_1} provides the 3 primary colors 
+#' of the \href{https://www.universitaet-tuebingen.de/}{University of Tuebingen}, Germany. 
+#' 
+#' 
+#' The primary dark blue color \code{karminrot} is defined as \code{Karminrot HKS 16}. 
+#' The palette \code{uni_tuebingen_1} adds also "Mattgold" and "anthrazit", 
+#' while the palette \code{\link{uni_tuebingen_2}} provides secondary colors. 
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unikn}, 2022-10-28.
+#' 
+#' @source 
+#' Color definitions are based on 
+#' \url{https://uni-tuebingen.de/einrichtungen/verwaltung/stabsstellen/hochschulkommunikation/service-fuer-beschaeftigte/corporate-design/basiselemente/farben}. 
+#' 
+#' @examples
+#' uni_tuebingen_1
+#' seecol(uni_tuebingen_1, main = "Primary colors of Tuebingen")
+#' demopal(uni_tuebingen_1, type = 4, seed = 1,  
+#'         main = "Using the primary colors of Tuebingen")
+#'
+#' @family contributed color palettes
+#'
+#' @seealso 
+#' \code{\link{uni_tuebingen_2}} for Tuebingen's secondary colors; 
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
 
 # 2. Define color palette:
 uni_tuebingen_1 <- newpal(color_ut, names_ut)
@@ -4369,14 +4405,47 @@ uni_tuebingen_1 <- newpal(color_ut, names_ut)
 #        col_brd = "white", lwd_brd = 8,
 #        main = "Colors of: University of Tuebingen")
 
-# - uni_tuebingen_pal_2: ----
+# - uni_tuebingen_2: Secondary colors ----
 
 # Secondary colors of the University of Tuebingen:
 
 # do the same for the secondary colors 
 color_ut_2 <- c("#415A8C", "#0069AA", "#50AAC8", "#82B9A0", "#7DA54B", "#326E1E", "#C8503C", "#AF6E96", "#B4A096", "#D7B469", "#D29600", "#916946")
 names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", "ut_light_green", "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_yellow", "ut_orange", "ut_brown")
-                         
+
+#' Secondary colors of the University of Tuebingen
+#'
+#' \code{uni_tuebingen_1} provides the secondary colors 
+#' of the \href{https://www.universitaet-tuebingen.de/}{University of Tuebingen}, Germany. 
+#' 
+#' @return 
+#' A named vector of colors (HEX/HTML codes of type character).
+#' 
+#' @author 
+#' \strong{unikn}, 2022-10-28.
+#' 
+#' @source 
+#' Color definitions are based on 
+#' \url{https://uni-tuebingen.de/einrichtungen/verwaltung/stabsstellen/hochschulkommunikation/service-fuer-beschaeftigte/corporate-design/basiselemente/farben}. 
+#' 
+#' @examples
+#' uni_tuebingen_2
+#' seecol(uni_tuebingen_2, main = "Secondary colors of Tuebingen")
+#' demopal(uni_tuebingen_2, type = 4, seed = 1,  
+#'         main = "Using the primary colors of Tuebingen")
+#'
+#' @family contributed color palettes
+#'
+#' @seealso 
+#' \code{\link{uni_tuebingen_1}} for Tuebingen's secondary colors; 
+#' \code{\link{seecol}} for viewing and comparing color palettes; 
+#' \code{\link{usecol}} for using color palettes; 
+#' \code{\link{simcol}} for finding similar colors; 
+#' \code{\link{newpal}} for defining new color palettes; 
+#' \code{\link{grepal}} for finding named colors. 
+#' 
+#' @export
+
 # 3. Define color palette:
 uni_tuebingen_2 <- newpal(color_ut_2, names_ut_2,as_df = FALSE)
                          
