@@ -4388,7 +4388,7 @@ names_ut <- c("ut_red", "ut_gold", "ut_grey")
 #' @family contributed color palettes
 #'
 #' @seealso 
-#' \code{\link{uni_tuebingen_2}} for Tuebingen's secondary colors; 
+#' \code{\link{uni_tuebingen_2}} for Tuebingen secondary colors; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
@@ -4415,7 +4415,7 @@ names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", 
 
 #' Secondary colors of the University of Tuebingen
 #'
-#' \code{uni_tuebingen_1} provides the secondary colors 
+#' \code{uni_tuebingen_2} provides the secondary colors 
 #' of the \href{https://www.universitaet-tuebingen.de/}{University of Tuebingen}, Germany. 
 #' 
 #' @return 
@@ -4437,7 +4437,7 @@ names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", 
 #' @family contributed color palettes
 #'
 #' @seealso 
-#' \code{\link{uni_tuebingen_1}} for Tuebingen's secondary colors; 
+#' \code{\link{uni_tuebingen_1}} for Tuebingen primary colors; 
 #' \code{\link{seecol}} for viewing and comparing color palettes; 
 #' \code{\link{usecol}} for using color palettes; 
 #' \code{\link{simcol}} for finding similar colors; 
