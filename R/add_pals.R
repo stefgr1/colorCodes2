@@ -4411,7 +4411,7 @@ uni_tuebingen_1 <- newpal(color_ut, names_ut)
 
 # do the same for the secondary colors 
 color_ut_2 <- c("#415A8C", "#0069AA", "#50AAC8", "#82B9A0", "#7DA54B", "#326E1E", "#C8503C", "#AF6E96", "#B4A096", "#D7B469", "#D29600", "#916946")
-names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", "ut_light_green", "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_yellow", "ut_orange", "ut_brown")
+names_ut_2 <- c("ut_metallic_blue", "ut_blue", "ut_light_blue", "ut_turquoise", "ut_light_green", "ut_green", "ut_red2", "ut_purple", "ut_sand", "ut_beige", "ut_orange", "ut_brown")
 
 #' Secondary colors of the University of Tuebingen
 #'
