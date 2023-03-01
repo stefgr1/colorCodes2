@@ -18,7 +18,7 @@ uni_tuebingen_2
 A named vector of colors (HEX/HTML codes of type character).
 }
 \description{
-\code{uni_tuebingen_1} provides the secondary colors 
+\code{uni_tuebingen_2} provides the secondary colors 
 of the \href{https://www.universitaet-tuebingen.de/}{University of Tuebingen}, Germany.
 }
 \examples{
@@ -29,7 +29,7 @@ demopal(uni_tuebingen_2, type = 4, seed = 1,
 
 }
 \seealso{
-\code{\link{uni_tuebingen_1}} for Tuebingen's secondary colors; 
+\code{\link{uni_tuebingen_1}} for Tuebingen primary colors; 
 \code{\link{seecol}} for viewing and comparing color palettes; 
 \code{\link{usecol}} for using color palettes; 
 \code{\link{simcol}} for finding similar colors; 
