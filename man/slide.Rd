@@ -43,6 +43,8 @@ slide(col = pal_seeblau[[1]], border = pal_seeblau[[5]], lwd = 2)
 
 Other plot functions: 
 \code{\link{theme_grau}()},
+\code{\link{theme_tueb_1}()},
+\code{\link{theme_tueb_2}()},
 \code{\link{theme_unikn}()},
 \code{\link{xbox}()}
 }
