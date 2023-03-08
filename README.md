@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit THIS (Rmd) file. -->
 
-# Enabling corporate design elements in R
+# Making the colours of the University of Tuebingen accessible in R
 
 <!-- The **colorCodes** package enables corporate design elements in\ R. It... -->
 
@@ -11,8 +11,8 @@ Tuebingen. This package is for internal use only and limited to the
 members of the University of Tuebingen. The following states the general
 information for the **unikn** package which also applies to this
 adjusted package called **colorCodes**. I added two palettes for the
-primary and secondary colors called “uni_tuebingen_1” and
-“uni_tuebingen_2”.
+primary and secondary colors called `uni_tuebingen_1` and
+`uni_tuebingen_2`.
 
 ### Overview
 
@@ -177,8 +177,6 @@ ggplot(my_data, aes(x = X, y = Y, fill = Group)) +
 
 <img src="inst/pix/README-unnamed-chunk-4-1.png" width="600" style="display: block; margin: auto;" />
 
-<img src="inst/pix/README-usecol-ggplot2-1.png" width="550px" style="display: block; margin: auto;" />
-
 #### Illustrating color palettes
 
 The `demopal()` function provides a quick illustration of a pre-defined
@@ -288,8 +286,6 @@ seecol(pal_google,
 ```
 
 <img src="inst/pix/README-unnamed-chunk-6-1.png" width="600" style="display: block; margin: auto;" />
-
-<img src="inst/pix/README-newpal-google-1.png" width="450px" style="display: block; margin: auto;" />
 
 ### Finding colors
 
@@ -443,31 +439,6 @@ post(labels = my_url, x = .2, y = .1, font = 4, new_plot = "xbox")
 - Using the color palette `pal_google` (defined above):
 
 <img src="inst/pix/README-others-google-1.png" width="350px" style="display: block; margin: auto;" />
-
-### Caveats
-
-Please note the following caveats:
-
-- Plotting text (i.e., graphically rendering characters) is rarely a
-  good idea. It typically doesn’t scale (when changing the size of
-  images) and cannot be recognized automatically (e.g., copied, indexed,
-  or scraped). Hence, the corresponding **unikn** functions should only
-  be used in contexts in which no better solutions are available or
-  practical (e.g., when specifically creating images, or adding
-  annotations to graphs).
-
-- Our templates — just like all others — are subject to constraints and
-  limitations. As a standard installation of R lacks the “Theinhardt”
-  fonts, we can only mimic the official design specifications (in Arial,
-  sans serif). Nevertheless, the **unikn** package helps preventing
-  common mistakes by novices (e.g., boxes or lines extending beyond
-  text, or step-functions in multi-line titles) and can be customized
-  and improved by expert users.
-
-Overall, the **unikn** functions can be useful for solving color-related
-tasks and plotting graphical elements (e.g., boxes, logos, etc.).
-Ideally, it should help you in creating a stylish and recognizable
-design for your presentations and visualizations.
 
 ## Copyrights
 
