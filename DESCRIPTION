@@ -12,7 +12,8 @@ Depends:
 Imports:
     utils,
     cli,
-    ggplot2
+    ggplot2, 
+    unikn
 Suggests:
     knitr,
     rmarkdown,
