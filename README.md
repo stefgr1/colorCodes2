@@ -211,9 +211,6 @@ seecol(pal_google,
 
 <img src="inst/pix/README-newpal-google-1.png" width="450px" style="display: block; margin: auto;" />
 
-See the vignette on [Institutional
-colors](https://hneth.github.io/unikn/articles/color_inst.html) for
-additional examples of creating color palettes.
 
 ### Finding colors
 
