@@ -39,7 +39,7 @@ library(colorCodes)  # load package
 [![Rdoc](https://www.rdocumentation.org/badges/version/unikn/)](https://www.rdocumentation.org/packages/unikn/)
 -->
 
-# unikn `r packageVersion('unikn')` <img src = "./inst/pix/unikn.png" align = "right" alt = "unikn::" width = "150px" />
+# unikn `r packageVersion('colorCodes')` <img src = "./inst/pix/unikn.png" align = "right" alt = "unikn::" width = "150px" />
 
 <!-- unikn pkg logo and link: --> 
 <!-- <a href = "https://CRAN.R-project.org/package=unikn">

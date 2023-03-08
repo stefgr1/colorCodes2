@@ -28,12 +28,12 @@ unikn.guide <- function() {
   
   # Welcome message: ------
   
-  pkg_version <- utils::packageVersion("unikn", lib.loc = NULL)
+   # pkg_version <- utils::packageVersion("unikn", lib.loc = NULL)
   
   # welcome_message <- paste0("Welcome to unikn (v", pkg_version, ")!")
   # packageStartupMessage(in_grau(welcome_message))
   
-  packageStartupMessage(in_grau("Welcome to ", in_seeblau("unikn"), " (v", pkg_version, ")!", sep = ""))
+  packageStartupMessage(in_grau("Welcome to ", in_seeblau("colorCodes"), sep = ""))
   
   
   # User guidance: ------
